@@ -1234,6 +1234,35 @@ export type Jupiter = {
                 type: "bool";
               }
             ];
+          },
+          {
+            name: "SoLayerDelegateNoInit",
+          },
+          {
+            name: "SoLayerUnDelegateNoInit";
+          },
+          {
+            name: "TokenMill";
+            fields: [
+              {
+                name: "side";
+                type: {
+                  defined: "Side";
+                }
+              }
+            ];
+          },
+          {
+            name: "DaoFunBuy";
+          },
+          {
+            name: "DaoFunSell";
+          },
+          {
+            name: "ZeroFi";
+          },
+          {
+            name: "WooFi";
           }
         ];
       };
@@ -2675,6 +2704,35 @@ export const IDL: Jupiter = {
               },
             ],
           },
+          {
+            name: "SoLayerDelegateNoInit",
+          },
+          {
+            name: "SoLayerUnDelegateNoInit",
+          },
+          {
+            name: "TokenMill",
+            fields: [
+              {
+                name: "side",
+                type: {
+                  defined: "Side",
+                }
+              }
+            ],
+          },
+          {
+            name: "DaoFunBuy",
+          },
+          {
+            name: "DaoFunSell",
+          },
+          {
+            name: "ZeroFi"
+          },
+          {
+            name: "WooFi"
+          }
         ],
       },
     },
