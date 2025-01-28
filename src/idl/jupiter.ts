@@ -1236,10 +1236,10 @@ export type Jupiter = {
             ];
           },
           {
-            name: "SoLayerDelegateNoInit",
+            name: "SolayerDelegateNoInit",
           },
           {
-            name: "SoLayerUnDelegateNoInit";
+            name: "SolayerUnDelegateNoInit";
           },
           {
             name: "TokenMill";
@@ -2705,10 +2705,10 @@ export const IDL: Jupiter = {
             ],
           },
           {
-            name: "SoLayerDelegateNoInit",
+            name: "SolayerDelegateNoInit",
           },
           {
-            name: "SoLayerUnDelegateNoInit",
+            name: "SolayerUnDelegateNoInit",
           },
           {
             name: "TokenMill",
