@@ -87,7 +87,7 @@ export class InstructionParser {
       if (this.isRouting(ix.name)) {
         const routePlan = (ix.data as any).routePlan as RoutePlan;
         const inputIndex = 0;
-        const outputIndex = routePlan.length;
+        const outputIndex = Math.max(...routePlan.map((obj) => obj.outputIndex));
 
         const initialPositions: number[] = [];
         for (let j = 0; j < routePlan.length; j++) {
